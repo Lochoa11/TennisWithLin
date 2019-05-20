@@ -1,5 +1,11 @@
 body{
 	background-color: #00f6ff;
+	text-align: center;
+}
+
+.MainPic{
+	width: 30%;
+	height: 40%;
 }
 
 .titles{
