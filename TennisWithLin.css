@@ -2,15 +2,24 @@ body{
 	background-color: #00f6ff;
 }
 
-.MainPic{
-	width: 30%;
-	height: 40%;
+.main-pic{
+	width        : 70%;
+	height       : 80%;
+	border-radius: 5%;
 }
 
 .green-text{
 	color: #8bff00;
 }
 
-.blue-background{
+.dark-blue-background{
 	background-color: #007bff;
+}
+
+.mid-blue{
+	background-color: #42d1f4;
+}
+
+.image-center{
+	margin: 0 auto;
 }
