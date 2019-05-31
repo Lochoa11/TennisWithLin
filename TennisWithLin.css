@@ -1,11 +1,24 @@
-body{
+body, html{
 	background-color: #00f6ff;
+	height: 100%;
 }
 
-.main-pic{
-	width        : 70%;
-	height       : 80%;
-	border-radius: 5%;
+.parallax{
+	/*image for parallax*/
+	background: url("Images/Me.jpg"); 
+
+	/*specific height for parallax*/
+	height: 70%;
+
+	/*create the parallax scrolling effect*/
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.white-text{
+	color: white;
 }
 
 .green-text{
@@ -16,10 +29,11 @@ body{
 	background-color: #007bff;
 }
 
-.mid-blue{
-	background-color: #42d1f4;
-}
-
 .image-center{
 	margin: 0 auto;
+}
+
+.align-vert-center{
+	margin-top: auto;
+	margin-bottom: auto;
 }
